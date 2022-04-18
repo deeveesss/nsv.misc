@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:obsidian",
+        "location": {
+          "dimension": "minecraft:the_nether"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "misc:portals"
+  }
+}
